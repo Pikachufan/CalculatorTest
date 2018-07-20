@@ -50,26 +50,26 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     public void initView(){
 
-        btn_num0 = (Button)findViewById(R.id.btn_num0);
-        btn_num1 = (Button)findViewById(R.id.btn_num1);
-        btn_num2 = (Button)findViewById(R.id.btn_num2);
-        btn_num3 = (Button)findViewById(R.id.btn_num3);
-        btn_num4 = (Button)findViewById(R.id.btn_num4);
-        btn_num5 = (Button)findViewById(R.id.btn_num5);
-        btn_num6 = (Button)findViewById(R.id.btn_num6);
-        btn_num7 = (Button)findViewById(R.id.btn_num7);
-        btn_num8 = (Button)findViewById(R.id.btn_num8);
-        btn_num9 = (Button)findViewById(R.id.btn_num9);
+        btn_num0 = (NumButton)findViewById(R.id.btn_num0);
+        btn_num1 = (NumButton)findViewById(R.id.btn_num1);
+        btn_num2 = (NumButton)findViewById(R.id.btn_num2);
+        btn_num3 = (NumButton)findViewById(R.id.btn_num3);
+        btn_num4 = (NumButton)findViewById(R.id.btn_num4);
+        btn_num5 = (NumButton)findViewById(R.id.btn_num5);
+        btn_num6 = (NumButton)findViewById(R.id.btn_num6);
+        btn_num7 = (NumButton)findViewById(R.id.btn_num7);
+        btn_num8 = (NumButton)findViewById(R.id.btn_num8);
+        btn_num9 = (NumButton)findViewById(R.id.btn_num9);
 
-        btn_point = (Button)findViewById(R.id.btn_point);//小数点
-        btn_divide = (Button)findViewById(R.id.btn_divide);//除以
-        btn_multiply = (Button)findViewById(R.id.btn_multiply);//乘法
-        btn_minus = (Button)findViewById(R.id.btn_minus);//减法
-        btn_pluse = (Button)findViewById(R.id.btn_pluse);//加法
-        btn_equal = (Button)findViewById(R.id.btn_equal);//等于
+        btn_point = (SymbolButton)findViewById(R.id.btn_point);//小数点
+        btn_divide = (SymbolButton)findViewById(R.id.btn_divide);//除以
+        btn_multiply = (SymbolButton)findViewById(R.id.btn_multiply);//乘法
+        btn_minus = (SymbolButton)findViewById(R.id.btn_minus);//减法
+        btn_pluse = (SymbolButton)findViewById(R.id.btn_pluse);//加法
+        btn_equal = (EqualButton)findViewById(R.id.btn_equal);//等于
 
-        btn_clear = (Button)findViewById(R.id.btn_clear);
-        btn_del = (Button)findViewById(R.id.btn_del);
+        btn_clear = (SymbolButton)findViewById(R.id.btn_clear);
+        btn_del = (SymbolButton)findViewById(R.id.btn_del);
 
         textview1 = (TextView)findViewById(R.id.textview1);
         textview2 = (TextView)findViewById(R.id.textview2);
